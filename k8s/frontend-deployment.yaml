@@ -18,4 +18,3 @@ spec:
           image: surya434/emp-frontend:latest
           ports:
             - containerPort: 80
-

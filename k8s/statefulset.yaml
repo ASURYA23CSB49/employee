@@ -4,7 +4,7 @@ metadata:
   name: mysql
   namespace: default
 spec:
-  serviceName: mysql
+  serviceName: mysql-headless
   replicas: 1
   selector:
     matchLabels:
@@ -41,4 +41,3 @@ spec:
         resources:
           requests:
             storage: 1Gi
-
