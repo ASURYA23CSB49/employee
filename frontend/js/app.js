@@ -1,4 +1,4 @@
-const API_BASE = 'http://127.0.0.1:30080/api';
+const API_BASE = 'http://192.168.49.2:30080/api';
 
 const api = {
   async request(method, endpoint, body = null) {
