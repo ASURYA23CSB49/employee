@@ -1,4 +1,4 @@
-const API_BASE = 'http://localhost:8080/api';
+const API_BASE = 'http://127.0.0.1:30080/api';
 
 const api = {
   async request(method, endpoint, body = null) {
@@ -77,3 +77,4 @@ function renderUserInfo() {
     if (av) av.textContent = user.name.charAt(0).toUpperCase();
   }
 }
+
